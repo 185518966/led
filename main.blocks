@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="controls_repeat_ext" id="mqI!kPcstgcIyc]l-8P[" disabled="true" x="-31" y="-97"><value name="TIMES"><shadow type="math_whole_number" id="(WO*fW{,$/Y!E`5(6C0J" disabled="true"><field name="NUM">4</field></shadow></value></block><block type="device_forever" id="9+akalJ6|;J_?w)=r?6D" x="261" y="-21"></block><block type="device_button_event" id="^14AI#A?MT[zIi](3FFO" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="0RLeX429K.h0)?*;:cLM"><value name="TIMES"><shadow type="math_whole_number" id="Y=/=VH@!}Yl^Zd0MEP]?"><field name="NUM">90000000</field></shadow></value><statement name="DO"><block type="device_show_leds" id="PT=0ViU*=xs$#@!UU8T`"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="basic_show_icon" id="(:V!mL(Vxj511kYC6Yyp"><field name="i">IconNames.Tortoise</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="~%b|)=^3fR?#FLPx7Xrl" x="260" y="125"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="4t*uuMg:c?Mn7knB6wz+"><value name="TIMES"><shadow type="math_whole_number" id="NdlXFflfzQ++5}]I?vSF"><field name="NUM">90000000</field></shadow></value><statement name="DO"><block type="device_show_leds" id="}jtF;{x1_J/:djH5[_K3"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        # # # # #
+        `</field><next><block type="basic_show_icon" id="[$1,yAqP{UzLN*Z4/0L4"><field name="i">IconNames.Sword</field></block></next></block></statement></block></statement></block></xml>
